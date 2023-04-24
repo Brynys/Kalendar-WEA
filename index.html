@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalendář s poznámkami</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Kalendář s poznámkami</h1>
+    </header>
+    <main>
+        <div class="calendar-navigation">
+            <button id="prevMonth">&lt;</button>
+            <span id="currentMonthYear"></span>
+            <button id="nextMonth">&gt;</button>
+          </div>
+        <div id="calendar"></div>
+        <form id="addNoteForm">
+            <label for="date">Datum:</label>
+            <input type="date" id="date" required>
+            <label for="note">Poznámka:</label>
+            <input type="text" id="note" maxlength="30" required>
+            <button type="submit">Přidat poznámku</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; JJ. Všechna práva vyhrazena.</p>
+    </footer>
+</body>
+</html>
