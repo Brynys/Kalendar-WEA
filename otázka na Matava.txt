@@ -1,1 +1,0 @@
-Můžu používat na uložení dat localStorage?
